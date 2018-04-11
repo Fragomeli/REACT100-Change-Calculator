@@ -1,0 +1,99 @@
+body {
+  
+  /* Source: https://uigradients.com */
+  background: #73C8A9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.flex-row {
+  display: flex;
+  justify-content: row wrap;
+}
+.flex-item {
+  display: flex;
+  margin: 0 auto;
+  width: 22%;
+  height: auto;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: grey;
+  border: 1px solid #000;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+input {
+  display: block;
+  width: 100%;
+}
+h1 {
+  color: #fff !important;
+  padding: 15px 0;
+  border-bottom: 1px solid #fff;
+}
+.results-wrapper {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.well {
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.btn {
+  background-color: #73C8A9;
+}
+.panel-heading  {
+  background-color: #73C8A9;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 24px;
+}
+.row.one,
+.row.two {
+  padding: 0 15px;
+}
+.row.one.img {
+  height: auto;
+}
+
+
+.twenties {
+  height: auto;
+  width: auto;
+}
+.tens {
+  height: auto;
+  width: auto;
+}
+.fives {
+  height: auto;
+  width: auto;
+}
+.ones {
+  height: auto;
+  width: auto;
+}
+.quarters {
+  height: auto;
+  width: auto;
+  padding: 10px 10px;
+  display: block;
+}
+.dimes {
+  height: auto;
+  width: auto;
+}
+.nickels {
+ height: auto;
+ width: auto;
+}
+.pennies {
+  height: auto;
+  width: auto;
+}
